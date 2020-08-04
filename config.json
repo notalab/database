@@ -1,7 +1,0 @@
-{
-    "host": "localhost",
-    "port": "32771",
-    "database": "docker",
-    "user": "docker",
-    "password": "docker"
-}
