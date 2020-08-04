@@ -17,7 +17,7 @@ jobs:
         username: root
         key: ${{ secrets.SSH_KEY }}
         script: |
-          cd notadb/nota
+          cd notadb/db
           git fetch --all && git checkout staging
           git pull
           cd ../
