@@ -7,7 +7,7 @@ import config from './config.json';
     user: config.user,
     password: config.password,
     host: config.host,
-    port: Number(config.port),
+    port: Number(config.port)
   }
  
   await createDb(config.database, {
